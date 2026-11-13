@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuário</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav><h1 class="apresentar">Cadastro de Usuários</h1></nav>
+        </div>
+    </header>
+
+    <main>
+    
+        <div id="mensagem" style="display: none;"></div>
+
+        <form id="formulario">
+            <div class="nome">
+                <label for="nome">Nome *</label>
+                <input type="text" placeholder="Digite o nome de usuário." class="nome_campo" id="nome" required>
+            </div>
+
+            <div class="email">
+                <label for="email">Email *</label>
+                <input type="email" placeholder="Digite o email do usuário." class="email_campo" id="email" required>
+            </div>
+            
+            <div class="cadastrar">
+                <button type="submit" class="cadastrar_botao">Cadastrar Usuário</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        © 2026 Luiz Gabriel. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

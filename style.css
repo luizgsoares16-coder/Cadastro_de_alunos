@@ -1,0 +1,123 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 250, 228);
+}
+
+header {
+    background-color: rgb(218, 215, 78);
+    margin-left: 25em;
+    margin-right: 25em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+main {
+    margin-left: 25em;
+    margin-right: 25em;
+    background-color: rgb(250, 234, 192);
+}
+
+footer {
+    margin-left: 25em;
+    margin-right: 25em;
+    padding: 20px;
+    background-color: rgb(218, 215, 78);
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+nav{
+    margin-left: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.nome {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.nome_campo {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.nome_campo:hover {
+    border: 1px solid green;
+}
+
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.email_campo {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.email_campo:hover {
+    border: 1px solid green;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.cadastrar_botao {
+    padding: 17px 100px;
+    margin-bottom: 19px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgba(172, 255, 47, 0.24);
+    cursor: pointer;
+}
+
+.cadastrar_botao:hover {
+    padding: 20px 103px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    border: 1px solid rgba(39, 58, 10, 0.404);
+    border-radius: 8px;
+    background-color: rgba(172, 255, 47, 0.24);
+}
+
+/* Mantenha todo o seu CSS anterior e adicione apenas estas classes no final: */
+
+#mensagem {
+    margin: 15px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.erro {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
